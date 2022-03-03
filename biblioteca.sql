@@ -63,11 +63,9 @@ INSERT INTO LIBRO(ISBN_LIBRO, TITULO_LIBRO, PAGINAS_LIBRO) VALUES('333-3333333-3
 INSERT INTO LIBRO(ISBN_LIBRO, TITULO_LIBRO, PAGINAS_LIBRO) VALUES('444-4444444-444', 'MANUAL DE MECÁNICA', 298);
 
 --o se puede poblar importando el csv:
---
-
 -- se realiza con:
-COPY libros FROM 'C:/Users/Fernando/Desktop/libros.csv' csv header;
-SELECT * from libros;
+--COPY libros FROM 'C:/Users/Fernando/Desktop/libros.csv' csv header;
+--SELECT * from libros;
 
 
 
