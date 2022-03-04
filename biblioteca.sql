@@ -10,7 +10,7 @@ codigo_autor INT PRIMARY KEY,
 nombre_autor VARCHAR(100),
 apellido_autor VARCHAR(100),
 fnac_autor DATE,
-fdef_autor DATE,
+fdef_autor DATE
 );
 
 CREATE TABLE libro(
