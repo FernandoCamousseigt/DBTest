@@ -20,7 +20,7 @@ ORDER BY "veces_solicitado" DESC;
 
 --d. Si se cobrara una multa de $100 por cada día de atraso, mostrar cuánto
 --debería pagar cada usuario que entregue el préstamo después de 7 días:
-
+--Detallado por libro:
 SELECT isbn_libro, nombre_socio, apellido_socio, socio.rut_socio,
 (fecha_devolucion - fecha_prestamo - 7)*100 AS "debe"
 FROM prestamo 
